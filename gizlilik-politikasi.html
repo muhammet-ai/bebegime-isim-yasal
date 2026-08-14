@@ -59,9 +59,10 @@ footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--ci
 </header>
 <main>
 <h1>Gizlilik Politikası</h1>
-<p><strong>Uygulama:</strong> Bebeğime İsim<br><strong>Son güncelleme:</strong> 12 Ağustos 2026</p>
+<p><strong>Uygulama:</strong> Bebeğime İsim<br><strong>Son güncelleme:</strong> 14 Ağustos 2026</p>
 <h2>Kısaca</h2>
-<p>Bebeğime İsim hesap açmanızı istemez, sunucusu yoktur ve sizden ad, e-posta, telefon gibi hiçbir kişisel bilgi istemez. Favorileriniz yalnızca telefonunuzda saklanır. Uygulamanın topladığı tek veri kategorisi, ücretsiz kalabilmesi için gösterilen <strong>Google AdMob reklamlarının</strong> işlediği reklam verileridir.</p>
+<p>Bebeğime İsim hesap açmanızı istemez, verilerinizi tutan <strong>kendi sunucumuz yoktur</strong> ve sizden ad, e-posta, telefon gibi hiçbir kişisel bilgi istemez. Favorileriniz telefonunuzda saklanır; bizim sunucumuza gönderilmez. (Telefonunuzda Google yedeklemesi açıksa, diğer uygulama verileri gibi bunlar da sizin Google hesabınıza yedeklenebilir — ayrıntısı aşağıda.)</p>
+<p>Uygulamanın bağlandığı <strong>iki dış hizmet</strong> vardır ve ikisi de aşağıda ayrıntılı açıklanmıştır: ücretsiz kalabilmesi için reklam gösteren <strong>Google AdMob</strong> (bölüm 3) ve açılışta güncelleme olup olmadığını kontrol eden <strong>Expo</strong> (bölüm 4). Bunların dışında uygulama internete hiçbir şey göndermez.</p>
 <h2>1. Bu politika kimin için</h2>
 <p>Bu politika, Bebeğime İsim mobil uygulamasını kullandığınızda verilerinizin nasıl işlendiğini açıklar.</p>
 <ul>
@@ -69,7 +70,7 @@ footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--ci
 <li><strong>İletişim:</strong> isimbebegime@gmail.com</li>
 </ul>
 <h2>2. Cihazınızda kalan veriler</h2>
-<p>Aşağıdakiler telefonunuzun yerel depolama alanında (AsyncStorage) tutulur. <strong>Hiçbiri bize ya da başka bir tarafa gönderilmez</strong>, sunucuya yüklenmez, yedeklenmez:</p>
+<p>Aşağıdakiler telefonunuzun yerel depolama alanında (AsyncStorage) tutulur. <strong>Hiçbiri bize gönderilmez</strong>; bu verileri toplayan kendi sunucumuz yoktur, onlara erişimimiz bulunmaz:</p>
 <div class="tablo-kap"><table>
 <thead><tr><th>Veri</th><th>Ne işe yarar</th></tr></thead>
 <tbody>
@@ -78,6 +79,9 @@ footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--ci
 <tr><td>Uygulamayı kaç kez açtığınız</td><td>iOS'ta reklam izni ekranının ilk açılışta değil, uygulamayı tanıdıktan sonra gösterilmesi için</td></tr>
 </tbody></table></div>
 <p>Uygulamayı sildiğinizde bu verilerin tamamı telefonunuzdan silinir. Uygulama içindeki "Favorileri temizle" seçeneğiyle de istediğiniz zaman kaldırabilirsiniz.</p>
+<h3>Cihaz yedeklemesi</h3>
+<p>Android'de <strong>Google Yedekleme</strong> (Google One / Yedekleme ve sıfırlama) açıksa, işletim sistemi uygulamaların verisini otomatik olarak yedekler. Bu, uygulamamızın yaptığı bir işlem değildir; işletim sisteminin tüm uygulamalara uyguladığı standart davranıştır. Yedekleme açıksa favori listeniz <strong>sizin Google hesabınıza</strong> yedeklenebilir ve telefon değiştirdiğinizde geri yüklenebilir.</p>
+<p>Bu yedek Google ile sizin aranızdadır: <strong>bizim erişimimiz yoktur</strong>, bize iletilmez. İstemiyorsanız telefonunuzun *Ayarlar → Google → Yedekleme* bölümünden yedeklemeyi kapatabilirsiniz.</p>
 <p><strong>Karşılaştırma kodu</strong> özelliği de tamamen cihazda çalışır: kod telefonunuzda üretilir, siz onu birine gönderirsiniz. Kodlar bizim tarafımızda hiçbir yerde saklanmaz.</p>
 <h2>3. Reklamlar yoluyla işlenen veriler</h2>
 <p>Uygulama ücretsizdir ve gelirini yalnızca <strong>banner reklamlardan</strong> elde eder. Reklamlar Google'ın <strong>AdMob</strong> hizmetiyle gösterilir ve yalnızca iki ekranda bulunur: İsim Detay ve İsim Listesi.</p>
@@ -95,19 +99,33 @@ footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--ci
 </ul>
 <p>Reklamlar <strong>geçiş (tam ekran) veya ödüllü reklam içermez</strong>, yalnızca banner biçimindedir.</p>
 <h2>4. Uygulama güncellemeleri</h2>
-<p>Uygulama, hata düzeltmelerini hızlı ulaştırabilmek için Expo'nun güncelleme hizmetini kullanır. Güncelleme kontrolü sırasında uygulama sürümü, platform ve cihaz türü gibi teknik bilgiler Expo sunucusuna iletilir. Bu istekler kimliğinizle ilişkilendirilmez.</p>
-<p>Ayrıntılar: <a href="https://expo.dev/privacy" rel="noopener">https://expo.dev/privacy</a></p>
+<p>Uygulama, hata düzeltmelerini size hızlı ulaştırabilmek için Expo'nun güncelleme hizmetini kullanır. <strong>Her açılışta</strong>, yeni bir güncelleme yayınlanıp yayınlanmadığını sormak için Expo'nun sunucusuna (<code>u.expo.dev</code>) kısa bir istek gider.</p>
+<p>Bu istek şunları taşır:</p>
+<ul>
+<li><strong>IP adresiniz</strong> — her internet isteğinde olduğu gibi teknik olarak zorunludur, ayrıca gönderilen bir bilgi değildir</li>
+<li><strong>Platform</strong> (Android veya iOS), <strong>uygulama sürümü</strong> ve çalışma zamanı sürümü</li>
+</ul>
+<p>Bunun dışında hiçbir şey gitmez: favorileriniz, arama yaptığınız kelimeler, baktığınız isimler ya da uygulama içinde ne yaptığınız bu isteğe <strong>dahil edilmez</strong>.</p>
+<p>Açık olmak gerekirse:</p>
+<ul>
+<li><strong>Amaç yalnızca güncelleme kontrolüdür.</strong> Analitik, ölçümleme, kullanıcı izleme veya profilleme amacı taşımaz.</li>
+<li>İstek, sizi tanımlayan bir kimlikle <strong>ilişkilendirilmez</strong>.</li>
+<li>Tarafımızca <strong>kalıcı olarak saklanmaz</strong> — bu isteklerden bize ait bir kayıt oluşmaz, böyle bir günlüğe erişimimiz yoktur.</li>
+<li>Güncelleme kontrolü başarısız olursa (örneğin internet yoksa) uygulama <strong>aynen çalışmaya devam eder</strong>.</li>
+</ul>
+<p>Expo'nun gizlilik politikası: <a href="https://expo.dev/privacy" rel="noopener">https://expo.dev/privacy</a></p>
 <h2>5. Toplamadıklarımız</h2>
 <p>Açıkça belirtmek isteriz ki bu uygulama:</p>
 <ul>
 <li>Hesap açmanızı <strong>istemez</strong>, giriş sistemi <strong>yoktur</strong></li>
 <li>Ad, soyad, e-posta, telefon numarası, doğum tarihi <strong>istemez</strong></li>
 <li>Rehberinize, fotoğraflarınıza, kameranıza, mikrofonunuza, konumunuza <strong>erişmez</strong></li>
-<li>Herhangi bir <strong>analitik veya kullanıcı izleme SDK'sı içermez</strong> (Firebase Analytics, Facebook SDK, Sentry vb. kullanılmamaktadır)</li>
-<li>Favorilerinizi <strong>buluta yedeklemez</strong>, cihazlar arası senkronlamaz</li>
+<li>Herhangi bir <strong>analitik veya kullanıcı izleme SDK'sı içermez</strong> (Firebase Analytics, Google Analytics, Facebook SDK, Sentry vb. kullanılmamaktadır). Uygulamanın kaç kez açıldığını, hangi ekranda ne kadar kaldığınızı veya hangi isimlere baktığınızı ölçen bir araç <strong>yoktur</strong></li>
+<li>Favorilerinizi <strong>kendi sunucularımıza yüklemez</strong>, cihazlar arası senkronlamaz, başka kullanıcılarla paylaşmaz</li>
 <li>Kişisel verilerinizi <strong>satmaz</strong></li>
 </ul>
-<p>İsim veritabanı uygulamanın içine gömülüdür; isim araması yaparken yazdıklarınız internete gönderilmez, uygulama internetsiz de çalışır.</p>
+<p><strong>Tek istisna, dürüstçe:</strong> Bölüm 3'te anlatılan reklam gösterimi ve bölüm 4'te anlatılan güncelleme kontrolü internete bağlanır. Bunların dışında uygulama dışarıyla konuşmaz.</p>
+<p>İsim veritabanı uygulamanın içine gömülüdür; isim araması yaparken yazdıklarınız internete <strong>gönderilmez</strong>, uygulama internetsiz de çalışır.</p>
 <h2>6. Reklam kişiselleştirmesini sınırlama</h2>
 <p>Kişiselleştirilmiş reklam istemiyorsanız:</p>
 <ul>
@@ -118,9 +136,9 @@ footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--ci
 <h2>7. Çocukların gizliliği</h2>
 <p>Bebeğime İsim <strong>ebeveynlere ve ebeveyn adaylarına yöneliktir; çocuklara yönelik bir uygulama değildir.</strong> Uygulama mağaza beyanlarında "çocuklara yönelik içerik" olarak işaretlenmemiştir ve 13 yaşın altındaki kişilerden bilerek veri toplamaz.</p>
 <h2>8. Veri güvenliği</h2>
-<p>Cihazınızda tutulan veriler işletim sisteminin uygulama izolasyonu ile korunur; başka uygulamalar bunlara erişemez. Bizim tarafımızda tutulan bir kullanıcı verisi bulunmadığından, sunucu tarafında bir veri sızıntısı riski de bulunmamaktadır.</p>
+<p>Cihazınızda tutulan veriler işletim sisteminin uygulama izolasyonu ile korunur; başka uygulamalar bunlara erişemez. Bizim tarafımızda tutulan bir kullanıcı verisi bulunmadığından, sunucu tarafında bir veri sızıntısı riski de bulunmamaktadır. Google Yedekleme kullanıyorsanız yedeğin güvenliği Google'ın altyapısına ve hesabınızın güvenliğine tabidir.</p>
 <h2>9. Saklama süresi</h2>
-<p>Cihazınızdaki veriler, siz uygulamayı silene veya favorilerinizi temizleyene kadar telefonunuzda kalır. Reklam verilerinin saklama süreleri Google'ın kendi politikalarına tabidir.</p>
+<p>Cihazınızdaki veriler, siz uygulamayı silene veya favorilerinizi temizleyene kadar telefonunuzda kalır. Google Yedekleme açıksa, yedeğin saklanma süresi Google'ın yedekleme politikalarına tabidir. Reklam verilerinin saklama süreleri de Google'ın kendi politikalarına tabidir.</p>
 <h2>10. Haklarınız</h2>
 <p>Türkiye'de ikamet ediyorsanız 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamındaki haklarınız için <strong>KVKK Aydınlatma Metni</strong>'ne bakabilirsiniz. Avrupa Birliği'nde iseniz GDPR kapsamındaki taleplerinizi aşağıdaki adrese iletebilirsiniz.</p>
 <p>Uygulama tarafında sizinle ilişkilendirilebilir bir veri tutmadığımız için, bize ulaşan taleplerde sizi tanımlayabileceğimiz bir kaydımız bulunmayacaktır; reklam verilerine ilişkin talepler için Google'a başvurmanız gerekebilir.</p>
