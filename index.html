@@ -1,75 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yasal Belgeler — Bebeğime İsim</title>
-<meta name="description" content="Bebeğime İsim uygulamasının yasal belgeler belgesi.">
-<style>:root {
-  --ana: #79545d;
-  --zemin: #fbf9f8;
-  --yuzey: #ffffff;
-  --metin: #1b1c1c;
-  --metin-ikincil: #4f4446;
-  --cizgi: #e4e2e1;
-}
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-body {
-  margin: 0;
-  padding: 0 1.25rem 4rem;
-  background: var(--zemin);
-  color: var(--metin);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.65;
-}
-.kap { max-width: 42rem; margin: 0 auto; }
-header { padding: 2.5rem 0 1.5rem; border-bottom: 1px solid var(--cizgi); margin-bottom: 2rem; }
-header .ad { font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ana); font-weight: 700; }
-h1 { font-size: 1.9rem; line-height: 1.25; margin: 0.6rem 0 0; color: var(--ana); }
-h2 { font-size: 1.25rem; margin: 2.5rem 0 0.75rem; color: var(--ana); }
-h3 { font-size: 1.05rem; margin: 1.75rem 0 0.5rem; }
-p { margin: 0 0 1rem; }
-ul { margin: 0 0 1rem; padding-left: 1.35rem; }
-li { margin-bottom: 0.45rem; }
-a { color: var(--ana); overflow-wrap: anywhere; }
-code { background: #f0eded; padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.9em; }
-hr { border: 0; border-top: 1px solid var(--cizgi); margin: 2.5rem 0; }
-.tablo-kap { overflow-x: auto; margin: 0 0 1.25rem; }
-table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
-th, td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--cizgi); vertical-align: top; }
-th { background: var(--yuzey); font-weight: 700; }
-.kartlar { list-style: none; padding: 0; margin: 2rem 0 0; }
-.kartlar li { margin-bottom: 1rem; }
-.kartlar a {
-  display: block; background: var(--yuzey); border: 1px solid var(--cizgi);
-  border-radius: 1rem; padding: 1.15rem 1.25rem; text-decoration: none; color: inherit;
-}
-.kartlar a:hover { border-color: var(--ana); }
-.kartlar strong { display: block; color: var(--ana); font-size: 1.05rem; margin-bottom: 0.2rem; }
-.kartlar span { color: var(--metin-ikincil); font-size: 0.95rem; }
-footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--cizgi); color: var(--metin-ikincil); font-size: 0.9rem; }
-.geri { display: inline-block; margin-top: 2.5rem; color: var(--ana); font-size: 0.95rem; }</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#79545d">
+  <title>Bebeğime İsim — iOS ve Android için indir</title>
+  <meta name="description" content="Bebeğime İsim uygulamasını Google Play veya App Store'dan indirin. 2.684 ismi keşfedin, anlamlarını ve kökenlerini inceleyin, birlikte karar verin.">
+  <meta property="og:title" content="Bebeğime İsim">
+  <meta property="og:description" content="Bebeğiniz için ismi birlikte keşfedin. iOS ve Android'de indirin.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://muhammet-ai.github.io/bebegime-isim-yasal/icon.png">
+  <meta property="og:url" content="https://muhammet-ai.github.io/bebegime-isim-yasal/">
+  <style>
+    :root { --rose:#79545d; --rose-dark:#5f3f47; --rose-soft:#f5c6d0; --cream:#fbf6ec; --surface:rgba(255,255,255,.86); --text:#1b1c1c; --muted:#5d5254; --line:rgba(121,84,93,.18); }
+    * { box-sizing:border-box; }
+    html { -webkit-text-size-adjust:100%; }
+    body { margin:0; min-height:100vh; color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:radial-gradient(circle at 15% 5%,rgba(245,198,208,.58),transparent 35%),radial-gradient(circle at 90% 85%,rgba(186,231,244,.5),transparent 38%),var(--cream); }
+    main { width:calc(100% - 2rem); max-width:36rem; margin:0 auto; padding:2.25rem 0 1.5rem; text-align:center; }
+    .card { padding:2rem 1.35rem 1.5rem; border:1px solid var(--line); border-radius:1.75rem; background:var(--surface); box-shadow:0 1.25rem 3.5rem rgba(95,63,71,.12); backdrop-filter:blur(12px); }
+    .icon { display:block; width:8.25rem; height:8.25rem; margin:0 auto 1.15rem; border-radius:2rem; box-shadow:0 .8rem 2rem rgba(95,63,71,.15); }
+    h1 { margin:0; color:var(--rose); font-size:clamp(2rem,8vw,2.75rem); line-height:1.08; letter-spacing:-.035em; }
+    .lead { max-width:29rem; margin:.85rem auto 0; color:var(--muted); font-size:1.05rem; line-height:1.55; }
+    .features { display:flex; flex-wrap:wrap; justify-content:center; gap:.5rem; margin:1.25rem 0 1.5rem; padding:0; list-style:none; }
+    .features li { padding:.45rem .72rem; border-radius:999px; background:rgba(245,198,208,.34); color:var(--rose-dark); font-size:.9rem; font-weight:650; }
+    .stores { display:grid; gap:.8rem; }
+    .store { display:flex; align-items:center; justify-content:center; min-height:3.8rem; padding:.8rem 1rem; border-radius:1rem; color:#fff; background:var(--rose); text-decoration:none; font-size:1.05rem; font-weight:750; box-shadow:0 .55rem 1.2rem rgba(95,63,71,.16); transition:transform 150ms ease,background 150ms ease; }
+    .store:hover { background:var(--rose-dark); transform:translateY(-1px); }
+    .store:focus-visible { outline:3px solid var(--rose-soft); outline-offset:3px; }
+    .store span { margin-right:.55rem; font-size:1.25rem; }
+    .note { margin:1rem 0 0; color:var(--muted); font-size:.86rem; }
+    footer { padding:1.25rem 0 0; color:var(--muted); font-size:.82rem; line-height:1.8; }
+    footer a { color:var(--rose); }
+    @media (min-width:34rem) { main { padding-top:3.5rem; } .card { padding:2.4rem 2.5rem 2rem; } .stores { grid-template-columns:1fr 1fr; } }
+  </style>
 </head>
 <body>
-<div class="kap">
-<header>
-  <div class="ad">Bebeğime İsim</div>
-</header>
-<main>
-<h1>Yasal Belgeler</h1>
-<p>Bebeğime İsim uygulamasının gizlilik ve kullanım belgeleri. Uygulama ücretsizdir, hesap açmanızı istemez ve favorileriniz yalnızca cihazınızda saklanır.</p>
-<ul class="kartlar">
-<li><a href="gizlilik-politikasi.html"><strong>Gizlilik Politikası</strong><span>Hangi verilerin işlendiği, nelerin cihazda kaldığı ve reklamların rolü.</span></a></li>
-<li><a href="kullanim-sartlari.html"><strong>Kullanım Şartları</strong><span>Hizmetin kapsamı, isim anlamlarının bilgilendirme amaçlı olduğu ve sorumluluk sınırları.</span></a></li>
-<li><a href="kvkk-aydinlatma.html"><strong>KVKK Aydınlatma Metni</strong><span>6698 sayılı Kanun kapsamında veri sorumlusu, işleme amaçları ve haklarınız.</span></a></li>
-</ul>
-</main>
-
-<footer>
-  Bebeğime İsim · İletişim: <a href="mailto:isimbebegime@gmail.com">isimbebegime@gmail.com</a>
-</footer>
-</div>
+  <main>
+    <section class="card" aria-labelledby="title">
+      <img class="icon" src="icon.png" alt="Bebeğime İsim uygulama ikonu" width="512" height="512">
+      <h1 id="title">Bebeğime İsim</h1>
+      <p class="lead">Bebeğiniz için ismi birlikte keşfedin. İsimleri, anlamlarını ve kökenlerini inceleyin; favorilerinizi karşılaştırıp karar verin.</p>
+      <ul class="features" aria-label="Öne çıkan özellikler">
+        <li>2.684 isim</li>
+        <li>Çevrimdışı kullanım</li>
+        <li>Hesap gerekmez</li>
+      </ul>
+      <div class="stores">
+        <a class="store" href="https://play.google.com/store/apps/details?id=com.bebegimeisim.app" rel="noopener noreferrer"><span aria-hidden="true">▶</span>Google Play'den indir</a>
+        <a class="store" href="https://apps.apple.com/tr/app/bebe%C4%9Fime-i-sim/id6801809382" rel="noopener noreferrer"><span aria-hidden="true">●</span>App Store'dan indir</a>
+      </div>
+      <p class="note">Ücretsiz indirilebilir · Reklam içerir · Uygulama içi satın alma yoktur.</p>
+    </section>
+    <footer>
+      <a href="gizlilik-politikasi.html">Gizlilik Politikası</a> · <a href="kullanim-sartlari.html">Kullanım Şartları</a> · <a href="kvkk-aydinlatma.html">KVKK</a><br>
+      İletişim: <a href="mailto:isimbebegime@gmail.com">isimbebegime@gmail.com</a>
+    </footer>
+  </main>
 </body>
 </html>
